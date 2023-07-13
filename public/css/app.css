@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;700&display=swap');
+*{
+    font-family: 'Barlow', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 200vh;
+}
+a, a:active, a:visited, a:hover{
+    text-decoration: none;
+    color: white;
+}
+.menu-icon{
+    width: 2px;
+}
+.navbar{
+    height: 80px;
+}
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active{
+    height: 80px;
+    width: 160px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 0% 0% 0% 30px;
+}
+.navbar-toggler{
+    background-color: #0221FF;
+}
+@media screen and (min-width: 0px) and (max-width: 768px ){
+    .navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active{
+        width: 84px;
+        border-radius: 50%;
+    }
+    .banner-svg1{
+        width: 290px;
+        height: 256px;
+    }
+    .banner-svg1{
+        width: 250px;
+        height: 256px;
+    }
+    .banner-svg2{
+        width: 320px;
+    }
+    .banner{
+        height: 90vh !important;
+    }
+    .banner-cover{
+        height: 90vh !important;
+    }
+    .banner-second{
+        height: fit-content !important;
+        padding-bottom: 100px;
+    }
+    .heading{
+        font-size: 2.4rem;
+    }
+    .heading-2{
+        font-size: 2rem;
+    }
+    .slider-icons{
+        width: 100%;
+    }
+}
+.banner{
+    height: 810px;
+    background-image: url(../img/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s ease 0s;
+    background-position: center;
+    width: 100%;
+}
+.max-p{
+    z-index: 10;
+}
+.banner-cover{
+    height: 810px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.banner-content{
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+.banner-cover .banner-content{
+    z-index: 5;
+}
+.banner-para{
+    width: 400px;
+}
+.banner-white{
+    background-color: white;
+    height: fit-content;
+    padding: 100px 0;
+}
+.over-svg{
+    z-index: 6;
+}
+
+.default-banner{
+    height: 80vh !important;
+    background-image: url(../img/default-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s ease 0s;
+    background-position: center;
+    width: 100%;
+}
+.default-banner .banner-cover{
+    height: 80vh !important;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.imagem-1{
+    animation-name: fade-down;
+    animation-duration: 1.2s;
+}
+.imagem-2{
+    animation-name: fade-up;
+    animation-duration: 2s;
+}
+.default-banner .imagem-1 img {
+    height: 200px;
+}
+.logo-name{
+    transition: all 0.2s ease 0s;
+}
+.logo-name:hover{
+    font-size: 41px !important;
+}
+.logo-content{
+    color: white;
+    z-index: 2;
+    width: fit-content;
+}
+.login{
+    z-index: 2;
+}
+.logo-content:hover{
+    cursor: pointer;
+}
+.arrow-btn{
+    width: 60px;
+    height: 60px;
+}
+.menu-body{
+    background-image: url(../img/slice-menu.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    animation-name: progress-bar-stripes;
+    animation-duration: 1s;
+    animation-delay: 5s;
+}
+.contact-btn{
+    background-color: #001AFF;
+    height: 70px;
+    width: 200px;
+    line-height: 50px;
+}
+.contact-btn2{
+    background-color: transparent;
+    height: 68px;
+    width: fit-content;
+    padding: 0 40px;
+    line-height: 66px;
+}
+.contact-btn3{
+    background-color: transparent;
+    height: 70px;
+    width: 150px;
+    line-height: 50px;
+}
+.second-bannerarrow{
+    background-color: #001AFF;
+    height: 60px;
+    width: 60px;
+}
+
+.banner-second{
+    margin-top: 100px;
+    height: 100vh;
+}
+.banner-third{
+    height: 100vh !important;
+    background-image: url(../img/second-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-option{
+    cursor: pointer;
+    transition: all 0.35s ease 0s;
+}
+.nav-option:hover{
+    font-size: 34px;
+}
+.contact-banner{
+    margin-top: 100px;
+}
+.contact-label{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 0 10px;
+    margin: -14px 0 0 48px;
+}
+.contact-input, select{
+    height: 50px;
+    padding: 27px 40px;
+    background-color: transparent;
+    border: 1px solid darkcyan;
+    border-radius: 50px;
+    color: white;
+}
+
+.foot-option{
+    color: white;
+    font-size: 18px;
+    font-weight:400;
+    flex-wrap: wrap;
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+}
+.foot-option:hover{
+    color: white;
+    font-weight: 700;
+}
+.copyright{
+    color: #f2f2f2 !important;
+}
+.hoverbutton3:hover{
+    background-color: #0221FF;
+
+
+
+
+}
+.hoverbutton2:hover{
+    background-color: #0221FF;
+}
+.hoverarrowrightbutton:hover{
+    background-color: #0221FF;
+
+}
+.second-bannerarrow:hover{
+    border-color: azure;
+    background-color: transparent;
+}
+.contact-btn:hover{
+    border-color: azure;
+    background-color: transparent;
+
+}
+
+.hoverbutton2 p {
+transition: 1s;
+}
+
+.hoverbutton2:hover p{
+transform: rotateY(360deg);
+}
+
+.hoverbutton3 p {
+transition: 1s;
+}
+
+.hoverbutton3:hover p{
+transform: rotateY(360deg);
+}
+.arrow-btn:hover{
+    background-color: #0221FF;
+}
+.hoverarrowrightbutton:hover{
+    background-color: #0221FF;
+}
+.iconsservices{
+    padding-left: 50px;
+}
+.dropdown{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    height: 20px;
+}
+@keyframes fade-down {
+    from {
+        transform: translateY(-500px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes fade-up {
+    from {
+        transform: translateY(1000px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes fade-in {
+    from {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.accordion-it{
+    background-color: transparent;
+    color: white;
+}

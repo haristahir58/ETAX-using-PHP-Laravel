@@ -1,0 +1,73 @@
+body{
+    background-color: #141B2D;
+}
+.sidebar{
+    background-color: #1F2940;
+}
+.link-sidebar{
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 0 !important;
+    transition: 0.3s;
+}
+.link-sidebar:hover{
+    border-right: 6px solid white;
+    color: white;
+}
+.links-heading{
+    color: rgb(201, 201, 201);
+    font-size: 10px;
+}
+.active {
+    background-color: #1F2940 !important;
+    border-right: 6px solid white !important;
+}
+.text-gray{
+    color: rgb(201, 201, 201);
+}
+.search-input{
+    height: 50px;
+    margin: 10px 0;
+    padding: 27px 40px;
+    background-color: transparent;
+    border: 1px solid darkcyan;
+    border-radius: 50px;
+    color: white;
+}
+.search-input:focus{
+    background-color: transparent;
+    color: white;
+}
+.contact-label{
+    position: absolute;
+    background-color: white;
+    color: #141B2D;
+    width: fit-content;
+    padding: 0 10px;
+    margin: -14px 0 0 48px;
+}
+.contact-input, select{
+    height: 40px;
+    padding: 27px 40px;
+    background-color: transparent;
+    border: 1px solid darkcyan;
+    border-radius: 50px;
+    color: black;
+}
+.form-container{
+    width: 92%;
+    margin-top: 10px;
+}
+.update-btn{
+    background-color: #141B2D;
+    color: white;
+    width: 150px;
+}
+.update-btn:hover{
+    background-color: white;
+    color: #141B2D;
+}
